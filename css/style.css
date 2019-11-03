@@ -1,1 +1,126 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+body {
+  font-family: Quicksand;
+  background-color: #f5f5e3	;
+}
+p {
+  font-size: 15px;
+}
+.separator {
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 0;
+    height: 1px;
+    background : -webkit-linear-gradient(left, #E5DEE5, #000, #E5DEE5);
+}
+.box {
+    height: .7em;
+    margin: 2% 0;
+    width: 80%;
+    border: .05em solid #2D2D2D;
+    border-radius: 2px;
+    display: inline-block;
+}
+#one {
+    height: 10px;
+    width: 65%;
+    background: #2D2D2D;
+    display: block;
+}
+#two {
+    height: 10px;
+    width: 75%;
+    background: #2D2D2D;
+    display: block;
+}
+#three {
+    height: 10px;
+    width: 70%;
+    background: #2D2D2D;
+    display: block;
+}
+#four {
+    height: 10px;
+    width: 60%;
+    background: #2D2D2D;
+    display: block;
+}
+#five {
+    height: 10px;
+    width: 80%;
+    background: #2D2D2D;
+    display: block;
+}
+.education, .experience {
+  padding-top: 50px;
+  background-color: #f5f5e3	;
+}
+h1, h3, li {
+  font-weight: bold;
+}
+.col-md-12 h3 {
+  color: #b1b189;
+}
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.profile-photo {
+  border-radius: 50%;
+
+}
+.about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ededd1;
+}
+.about h1 {
+  text-transform: uppercase;
+}
+.footer-social-links{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10%;
+}
+.footer-social-links a{
+    display: inline-block;
+    color: #f7f7f7;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
